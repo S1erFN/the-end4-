@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+}
+
+header{
+  color: #f1c40f;
+}
+.w4{
+  color: #f1c40f;
+}
+header {
+  background-color: #696969;
+  padding: 40px 0px 40px 25px;
+}
+.r4{
+  background-color: #808080;
+  color: #f1c40f;
+}
+.r2{
+    color: #f1c40f;
+}
+.te{
+    color: #f1c40f;
+}
+.y0{
+    text-align: center;
+}
+
+.double-border-button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid ;
+  color: #f1c40f;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+.double-border-button:after {
+content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.double-border-button:hover:after {
+  border-color: #f1c40f;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+
+
+.link-header {
+  background-color: #9FEE00;
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+nav {
+  padding: 35px 40px 0px 40px;
+  text-align: center;
+;
+}
+
+.link-nav {
+  color: black;
+  font-size: 24px;
+  margin-right: 35px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+img{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #2AB428;
+  font-size: 96px;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+ul {
+  font-size: 24px;
+  list-style: url("https://mars.algoritmika.org/uploads/2021/04/Arrow%201_0_1618309609.png");
+  margin-left: 60px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+}
+main{
+    background-image:url(https://i.pinimg.com/originals/c9/4c/e7/c94ce78d80c07480d25f7acafddc15d8.gif);
+}
+
+.link-text {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+}
+
+.social {
+  margin-right: 60px;
+}
+.knop{
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+
+}
